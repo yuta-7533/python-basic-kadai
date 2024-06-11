@@ -9,10 +9,14 @@ Original file is located at
 
 array = ["水","金","地","火","木","土","天","海","冥"]
 '''
+#１回目提出
 for i in range(2):
   for j in array:
     print(j)
 '''
+
+'''
+#２回目提出
 i=0
 #リストarrayの各要素を１つごとに出力
 #上記事項を２回実行
@@ -20,3 +24,16 @@ while i<2:
   for j in array:
     print(j)
   i+=1
+'''
+#３回目提出
+
+#forでリストの中身を出力
+for i in array:
+  print(i)
+
+#whileでリストの中身を出力
+#index番号 初期化
+index=0
+while index<len(array):
+  print(array[index])
+  index+=1
